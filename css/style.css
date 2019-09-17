@@ -1,0 +1,164 @@
+/*header start*/
+header{
+	background-color:#121B2A;
+	padding:10px 0;
+	}
+.wrapper{
+	overflow: hidden;
+	width: 80%;
+	/*border: 1px solid white;*/
+	margin: 0 auto;
+}
+.logo{
+	width: 20%;
+	/*border: 1px solid white;*/
+	float: left;
+
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%
+	/*border:1px solid white;*/
+	float: right;
+	margin-top: 35px
+}
+.menu ul{
+	float:right; 
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: white;
+	transition: .5s;
+	padding: 0 20px;
+	
+
+
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color:#06537F;
+
+}
+/*header end*/
+.banner{
+	background-image: url(../image/daylight.jpg);
+	background-repeat: no-repeat;
+	-webkit- background-size: cover;
+	-moz- background-size: cover;
+	background-size: cover;
+	background-position: center;
+	/*min-height:600px */
+}
+.banner_content{
+	/*border:1px solid white;*/
+	width: 50%;
+	margin-top: 220px;
+	margin-bottom: 80px;
+
+}
+.banner_content h1{
+	font-family: sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+    margin: 0;
+
+}
+.banner_content h2{
+	font-family: sans-serif;
+    font-size: 40px;
+    color: #0A74B6;
+    margin: 0;
+
+}
+.banner_content p{
+	font-family: sans-serif;
+    font-size: 16px;
+    word-spacing: 0px;
+    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.banner_content button{
+	background-color: #ddd;
+padding: 15px 50px;
+font-weight: 700;
+font-size: 25px;
+text-transform: uppercase;
+border: none;
+border-radius: 5px;
+}
+/*banner end*/
+
+/*service start*/
+.service{
+	background-color:#121B2C;
+	padding-top: 30px;
+	/*padding-bottom: 60px;*/
+}
+
+.single{
+	float: left;
+width: 29%;
+/*border-right: 1px solid white;*/
+padding-bottom: 60px;
+padding: 0 20px 60px 20px;
+}
+.single:last_child{
+	border-right: none;
+}
+.top{
+	overflow: hidden;
+}
+.top_logo{
+	width: 28%;
+	/*border:1px solid white;*/
+	float: left;
+}
+.top_logo img{
+	width: 100%;
+}
+.top_text{
+	width: 60%;
+	/*border:1px solid white;*/
+	float: left;
+	margin-top: 13px;
+
+}
+.top_text h1{
+	color:white;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	margin: 0;
+
+}
+.top_text h2{
+	color:#0177BF;
+font-family: sans-serif;
+	font-size: 25px;
+	margin: 0;
+}
+.buttom{
+	margin-top: 10px;
+}
+.buttom p{
+	font-family: sans-serif;
+	font-size: 15px;
+	font-color:white;
+	line-height: 30px;
+	font-weight: 400;
+}
+/*service end*/
